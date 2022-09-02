@@ -1,0 +1,131 @@
+:root {
+    --master: #F4F1DE;
+    --text: #3D405B;
+    --details: #F2CC8F;
+    --pure-black: #000000;
+}
+
+body {
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    background-color: var(--master);
+    color: var(--text);
+}
+
+a {
+    color: var(--text);
+}
+
+header {
+    font-size: 22px;
+}
+
+.owners-name {
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 2px solid var(--text);
+    max-width: 100%;
+}
+
+.owners-name h1 {
+    margin: 20px 0 10px;
+}
+
+.informations-box {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations-box-img {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border: 5px solid var(--details);
+    border-radius: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.informations-box-p {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--details);
+    border-radius: 85px;
+    min-width: 70%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.informations-box-p-individual {
+    margin: 5px;
+}
+
+.career-and-education-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.career-and-education-boxes div {
+    padding: 5px;
+    text-align: justify;
+    width: 35%;
+    margin: 15px;
+    border-radius: 85px;
+    min-width: 300px;
+}
+
+.career-and-education-boxes-title {
+    font-weight: bold;
+}
+
+.career-and-education-boxes p {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-and-languages-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: 110px;
+}
+
+.skills {
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+}
+
+.languages {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.languages header {
+    margin: 15px;
+}
+
+.languages th, td {
+    border: 3px solid var(--text);
+    border-radius: 18px;
+}
+
+.languages th {
+    background-color: var(--details);
+    padding: 5px;
+}
+
+.languages td {
+    padding: 5px;
+}
