@@ -1,8 +1,10 @@
 :root {
-    --master: #F4F1DE;
-    --text: #3D405B;
-    --details: #F2CC8F;
+    --master: #164A41;
+    --secondary-master: #9DC88D;
+    --text: #164A41;
+    --details: #4D774E;
     --pure-black: #000000;
+    --pure-white: #FFFFFF;
 }
 
 body {
@@ -24,12 +26,14 @@ header {
 .owners-name {
     font-size: 28px;
     text-align: center;
-    border-bottom: 2px solid var(--text);
+    border-bottom: 2px solid var(--details);
     max-width: 100%;
 }
 
 .owners-name h1 {
     margin: 20px 0 10px;
+    color: var(--secondary-master);
+    text-shadow: 2px 2px var(--pure-black);
 }
 
 .informations-box {
@@ -55,7 +59,8 @@ header {
     display: inline-block;
     text-align: center;
     font-size: 18px;
-    background-color: var(--details);
+    background-color: var(--secondary-master);
+    border: 5px solid var(--details);
     border-radius: 85px;
     min-width: 70%;
     padding: 20px;
@@ -83,6 +88,7 @@ header {
     border: 3px solid var(--details);
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--secondary-master);
 }
 
 .career-and-education-boxes-title {
@@ -101,7 +107,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 250px;
-    margin-bottom: 110px;
+    margin-bottom: 200px;
 }
 
 .skills {
@@ -112,28 +118,37 @@ header {
     border: 3px solid var(--details);
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--secondary-master);
 }
 
 .languages {
     text-align: center;
     border-radius: 20px;
-    padding-bottom: 40px;
+    background-color: var(--secondary-master);
+    border: 3px solid var(--details);
+    padding-bottom: 15px;
 }
 
 .languages header {
     margin: 15px;
+    color: var(--text);
 }
 
-.languages th, td {
-    border: 3px solid var(--text);
+.languages th,
+td {
+    border: 3px solid var(--details);
     border-radius: 18px;
+    background-color: var(--details);
 }
 
 .languages th {
-    background-color: var(--details);
     padding: 5px;
+    color: var(--secondary-master);
+    text-shadow: 1px 1px var(--pure-black);
 }
 
 .languages td {
     padding: 5px;
+    background-color: var(--secondary-master);
+    color: var(--text);
 }
