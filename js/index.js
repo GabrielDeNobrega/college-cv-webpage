@@ -8,4 +8,4 @@ let text = '{ "person" : [' +
 const obj = JSON.parse(text);
 
 document.getElementById("main-title").innerHTML =
-obj.person.lastName + " " + obj.person.lastName;
+obj.person[0].firstName + " " + obj.person[0].lastName;
