@@ -1,4 +1,4 @@
-{
+const file = `{
     "person": [
         {
             "informations": {
@@ -41,4 +41,6 @@
             }
         }
     ]
-}
+}`
+
+export default file;
