@@ -1,0 +1,12 @@
+.owners-name {
+    text-align: center;
+    border-bottom: 2px solid var(--details);
+    max-width: 100%;
+}
+
+.owners-name h1 {
+    font-size: 70px;
+    margin: 20px 0 10px;
+    color: var(--secondary-master);
+    text-shadow: 2px 2px var(--pure-black);
+}

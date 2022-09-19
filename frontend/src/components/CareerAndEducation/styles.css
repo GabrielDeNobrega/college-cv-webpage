@@ -1,0 +1,29 @@
+.career-and-education-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.career-and-education-boxes div {
+    padding: 5px;
+    text-align: justify;
+    width: 35%;
+    margin: 15px;
+    border-radius: 85px;
+    min-width: 300px;
+    border: 3px solid var(--details);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--secondary-master);
+}
+
+.career-and-education-boxes-title {
+    font-weight: bold;
+}
+
+.career-and-education-boxes p {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
