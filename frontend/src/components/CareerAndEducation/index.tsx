@@ -1,4 +1,9 @@
+import { User } from 'types/user';
 import './styles.css';
+
+type UserInformationProps = {
+    user: User | undefined;
+}
 
 function CareerAndEducation() {
 
@@ -9,7 +14,7 @@ function CareerAndEducation() {
             <div>
                 <p>
                     <header className="career-and-education-boxes-title">Experiência Profissional</header>
-                    <p id="career-first"></p>
+
                     <p id="career-second"></p>
                     <p id="career-third"></p>
                 </p>

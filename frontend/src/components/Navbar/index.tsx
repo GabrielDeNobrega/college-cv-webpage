@@ -1,12 +1,16 @@
+import { User } from 'types/user';
 import './styles.css';
 
-function Navbar() {
+type UserInformationProps = {
+    user: User | undefined;
+}
 
+function Navbar({ user }: UserInformationProps) {
 
     return (
 
         <header className="owners-name">
-            <h1>Gabriel de Nóbrega Araújo</h1>
+            <h1>{user?.fullName}</h1>
         </header>
     );
 

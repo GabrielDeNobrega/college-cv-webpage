@@ -2,6 +2,8 @@ INSERT INTO tb_user (full_name, picture_link, email, cell_phone, location, goal,
 
 
 INSERT INTO tb_experience (job_position, since, until, description, user_id) VALUES ('English Teacher', 2017, 2022, 'Worked with teaching different age groups from varied backgrounds.', 1)
+INSERT INTO tb_experience (job_position, since, until, description, user_id) VALUES ('English Teacher', 2017, 2022, 'Worked with teaching different age groups from varied backgrounds.', 1)
+
 
 INSERT INTO tb_education (institution, course_name, graduation_year, user_id) VALUES ('SENACSP', 'Tecnologia em Análise e Desenvolvimento de Sistemas', 2023, 1)
 

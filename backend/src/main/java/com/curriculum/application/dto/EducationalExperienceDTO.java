@@ -3,16 +3,16 @@ package com.curriculum.application.dto;
 public class EducationalExperienceDTO {
 
 	private Long id;
-	private String instituion;
+	private String institution;
 	private String courseName;
 	private Integer graduationYear;
 
 	public EducationalExperienceDTO() {
 	}
 
-	public EducationalExperienceDTO(Long id, String instituion, String courseName, Integer graduationYear) {
+	public EducationalExperienceDTO(Long id, String institution, String courseName, Integer graduationYear) {
 		this.id = id;
-		this.instituion = instituion;
+		this.institution = institution;
 		this.courseName = courseName;
 		this.graduationYear = graduationYear;
 	}
@@ -25,12 +25,12 @@ public class EducationalExperienceDTO {
 		this.id = id;
 	}
 
-	public String getInstituion() {
-		return instituion;
+	public String getInstitution() {
+		return institution;
 	}
 
-	public void setInstituion(String instituion) {
-		this.instituion = instituion;
+	public void setInstitution(String instituion) {
+		this.institution = instituion;
 	}
 
 	public String getCourseName() {
