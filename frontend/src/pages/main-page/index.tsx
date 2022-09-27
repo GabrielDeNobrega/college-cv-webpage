@@ -32,9 +32,9 @@ function MainPage() {
 
         <UserInformation user={user} />
 
-        <CareerAndEducation />
+        <CareerAndEducation user={user} />
 
-        <SkillsAndLanguages />
+        <SkillsAndLanguages user={user} />
 
       </main>
 

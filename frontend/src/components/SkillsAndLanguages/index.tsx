@@ -1,15 +1,22 @@
+import { User } from 'types/user';
 import './styles.css';
 
-function SkillsAndLanguages() {
+type UserInformationProps = {
+    user: User | undefined;
+}
 
+function SkillsAndLanguages({ user }: UserInformationProps) {
 
     return (
 
         <section className="skills-and-languages-boxes">
-
-            <div className="skills">
-                <header><b>Habilidades</b></header>
-                <p id="abilities"></p>
+            <div>
+                <div className="skills">
+                    <header><b>Habilidades</b></header>
+                    <div style={{ display: "flex" }}>
+                        {user?.skills.map((skill) => <p key={skill.id}>{"       " + skill.name + "          "}</p>)}
+                    </div>
+                </div>
             </div>
 
             <div className="languages">
