@@ -1,24 +1,24 @@
 :root {
-    --master: #164A41;
-    --secondary-master: #9DC88D;
-    --text: #164A41;
-    --details: #4D774E;
-    --pure-black: #000000;
-    --pure-white: #FFFFFF;
+  --master: #164a41;
+  --secondary-master: #9dc88d;
+  --text: #164a41;
+  --details: #4d774e;
+  --pure-black: #000000;
+  --pure-white: #ffffff;
 }
 
 body {
-    margin: auto;
-    font-family: Roboto, sans-serif;
-    position: relative;
-    background-color: var(--master);
-    color: var(--text);
+  margin: auto;
+  font-family: Roboto, sans-serif;
+  position: relative;
+  background-color: var(--master);
+  color: var(--text);
 }
 
 a {
-    color: var(--text);
+  color: var(--text);
 }
 
 header {
-    font-size: 22px;
+  font-size: 22px;
 }

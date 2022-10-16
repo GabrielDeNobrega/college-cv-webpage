@@ -6,10 +6,6 @@ INSERT INTO tb_experience (job_position, since, until, description, user_id) VAL
 
 INSERT INTO tb_education (institution, course_name, graduation_year, user_id) VALUES ('SENACSP', 'Tecnologia em Análise e Desenvolvimento de Sistemas', 2023, 1)
 INSERT INTO tb_education (institution, course_name, graduation_year, user_id) VALUES ('UNIFESP', 'Química Industrial', 2022, 1)
-INSERT INTO tb_education (institution, course_name, graduation_year, user_id) VALUES ('UNIFESP', 'Química Industrial', 2022, 1)
-INSERT INTO tb_education (institution, course_name, graduation_year, user_id) VALUES ('UNIFESP', 'Química Industrial', 2022, 1)
-
-
 
 INSERT INTO tb_skills (name, user_id) VALUES ('Inglês', 1)
 INSERT INTO tb_skills (name, user_id) VALUES ('Java', 1)

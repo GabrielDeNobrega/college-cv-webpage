@@ -16,7 +16,7 @@ export type User = {
 
 export type ProfessionalExperience = {
     id: number;
-    jobPostion: string;
+    jobPosition: string;
     since: number;
     until: number;
     description: string;
